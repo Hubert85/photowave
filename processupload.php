@@ -32,6 +32,7 @@ if(isset($_POST))
     {
             die('Something went wrong with Upload!'); // output error when above checks fail.
     }
+    echo 'hello';
 
     // Random number for both file, will be added after image name
     $RandomNumber   = rand(0, 9999999999);
